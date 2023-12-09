@@ -1,6 +1,10 @@
 
   @extends('dashboard.layouts.master')
   @section('title' , 'starter page')
+  @section('breadcrumb')
+    @parent
+    <li class="breadcrumb-item active">Starter Page</li>
+  @endsection
   @section('content')
 
         <div class="row">
